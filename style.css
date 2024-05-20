@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+    text-rendering: optimizeLegibility !important;
+    background: #f56ff5;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+/* our menu */
+
+#our-menu .section-logo {
+    text-align: center;
+}
+
+#our-menu .section-logo img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#our-menu .section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#our-menu .section-header h2 {
+    font-size: 32px;
+    color: #fff;
+}
+
+#our-menu {
+    padding: 50px 0;
+}
+
+#our-menu .section-header {
+    margin-bottom: 50px;
+}
+
+#our-menu .menu-item {
+    text-align: center;
+    padding: 1px;
+    border-radius: 100px;
+    background: #f3f3f5;
+    box-shadow: inset 6px 6px 12px #e2e2e2, inset -6px -6px 12px #ffffff;
+    transition: 0.3s;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#our-menu .menu-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+#our-menu .menu-link:hover .menu-item {
+    background-color: #e9ecef;
+    /* Example hover effect */
+}
+
+#our-menu .menu-item:hover {
+    background: #fbfbfd;
+    box-shadow: inset 6px 6px 12px #d4d4d4, inset -6px -6px 12px #ffffff;
+    transform: translateY(-5px);
+}
+
+#our-menu .menu-item img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#our-menu .menu-item h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#our-menu .menu-item p {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    #our-menu .menu-item {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    #our-menu .menu-item img {
+        height: 150px;
+        width: 150px;
+    }
+    #our-menu .menu-item h3 {
+        font-size: 16px;
+    }
+    #our-menu .menu-item p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #our-menu .menu-item {
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #our-menu .menu-item {
+        width: 900px;
+    }
+}
