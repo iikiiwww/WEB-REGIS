@@ -93,7 +93,7 @@ html {
 
 @media only screen and (max-width: 600px) {
     #our-menu .menu-item {
-        width: 100vw;
+        width: 90vw;
         margin: 0 auto;
     }
     #our-menu .menu-item img {
@@ -106,16 +106,21 @@ html {
     #our-menu .menu-item p {
         font-size: 12px;
     }
+    #our-menu .menu-item {
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
     #our-menu .menu-item {
         width: 600px;
+        margin-bottom: 20px;
     }
 }
 
 @media only screen and (min-width: 900px) {
     #our-menu .menu-item {
         width: 900px;
+        margin-bottom: 20px;
     }
 }
